@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class RemoveContactsTests extends AppiumConfig {
 
-    @BeforeClass
+    @BeforeMethod
     public void precondition(){
         new SplashScreen(driver)
                 .gotoAuthenticationScreen()

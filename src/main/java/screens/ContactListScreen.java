@@ -145,12 +145,12 @@ public class ContactListScreen extends BaseScreen{
     public void addContact(){
         int i = new Random().nextInt(1000) + 1000;
         Contact contact = Contact.builder()
-                .name("AddNewContact_" + i)
-                .lastName("Positive")
-                .email("addNewContact_" + i + "@mail.com")
+                .name("Kolyan" + i)
+                .lastName("Bo")
+                .email("skrydj1984" + i + "@mail.com")
                 .phone("1234567" + i)
-                .address("Rehovot")
-                .description("NewContact_" + i)
+                .address("Ashdod")
+                .description("New" + i)
                 .build();
         new ContactListScreen(driver)
                 .openContactForm()
